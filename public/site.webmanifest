@@ -1,0 +1,12 @@
+{
+  "name": "VÉRTICE MOTORS — R1",
+  "short_name": "VÉRTICE R1",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090909",
+  "theme_color": "#090909",
+  "description": "Experiência digital do superesportivo elétrico VÉRTICE R1.",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

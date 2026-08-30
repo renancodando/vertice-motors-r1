@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>VÉRTICE R1 — Performance moldada pelo ar</title>
+  <meta name="description" content="Conheça o VÉRTICE R1, superesportivo elétrico brasileiro de 720 cv, tração AWD e aerodinâmica ativa. Uma experiência digital imersiva da VÉRTICE MOTORS." />
+  <meta name="theme-color" content="#090909" />
+  <meta name="color-scheme" content="dark" />
+  <link rel="canonical" href="https://vertice-motors.vercel.app/" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="VÉRTICE R1 — Performance moldada pelo ar" />
+  <meta property="og:description" content="O primeiro superesportivo elétrico da VÉRTICE MOTORS. 720 cv, 0–100 km/h em 2,8 s e 510 km de autonomia." />
+  <meta property="og:url" content="https://vertice-motors.vercel.app/" />
+  <meta property="og:image" content="https://vertice-motors.vercel.app/og-vertice-r1.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="VÉRTICE R1 — Performance moldada pelo ar" />
+  <meta name="twitter:description" content="Uma experiência cinematográfica para o primeiro superesportivo elétrico da VÉRTICE MOTORS." />
+  <meta name="twitter:image" content="https://vertice-motors.vercel.app/og-vertice-r1.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Vehicle",
+    "name": "VÉRTICE R1",
+    "brand": { "@type": "Brand", "name": "VÉRTICE MOTORS" },
+    "vehicleConfiguration": "R1 AWD 94 kWh",
+    "vehicleTransmission": "Electric AWD",
+    "fuelType": "Electric",
+    "description": "Superesportivo elétrico brasileiro fictício com 720 cv, aceleração de 0 a 100 km/h em 2,8 segundos e autonomia de 510 km.",
+    "url": "https://vertice-motors.vercel.app/"
+  }
+  </script>
+</head>
+<body>
+  <a class="pular-conteudo" href="#conteudo">Ir para o conteúdo</a>
+
+  <div class="carregamento" id="carregamento" aria-live="polite">
+    <div class="carregamento-marca">VÉRTICE</div>
+    <div class="carregamento-linha"><span id="carregamento-progresso"></span></div>
+    <div class="carregamento-status" id="carregamento-status">Preparando aerodinâmica</div>
+  </div>
+
+  <canvas class="cena-webgl" id="cena-webgl" aria-hidden="true"></canvas>
+  <canvas class="camada-canvas" id="camada-canvas" aria-hidden="true"></canvas>
+  <div class="vinheta" aria-hidden="true"></div>
+  <div class="grao" aria-hidden="true"></div>
+
+  <div class="cursor" id="cursor" aria-hidden="true">
+    <span class="cursor-anel"></span>
+    <span class="cursor-centro"></span>
+    <span class="cursor-texto" id="cursor-texto"></span>
+  </div>
+
+  <header class="cabecalho" id="cabecalho">
+    <a href="#inicio" class="marca" data-cursor="ABRIR" aria-label="VÉRTICE MOTORS — início">
+      <span class="marca-simbolo">V</span>
+      <span class="marca-nome">VÉRTICE MOTORS</span>
+    </a>
+    <div class="cabecalho-centro">R1 / 01</div>
+    <button class="botao-menu" type="button" id="botao-menu" data-cursor="ABRIR" aria-expanded="false" aria-controls="menu">MENU</button>
+  </header>
+
+  <nav class="menu" id="menu" aria-label="Navegação principal">
+    <a href="#forma">Forma</a>
+    <a href="#aerodinamica">Aerodinâmica</a>
+    <a href="#explodido">Engenharia</a>
+    <a href="#performance">Performance</a>
+    <a href="#powertrain">Powertrain</a>
+    <a href="#materiais">Materiais</a>
+    <a href="#cockpit">Cockpit</a>
+    <a href="#configurador">Configurar</a>
+  </nav>
+
+  <main id="conteudo">
+    <section class="secao secao-inicio" id="inicio" data-capitulo="00">
+      <div class="inicio-marca mascara-texto"><span>VÉRTICE MOTORS</span></div>
+      <div class="inicio-r1 mascara-texto"><span>R1</span></div>
+      <div class="inicio-rodape">
+        <h1 class="inicio-slogan mascara-texto"><span>PERFORMANCE MOLDADA PELO AR.</span></h1>
+        <button class="botao-primario botao-magnetico" id="explorar-r1" data-cursor="EXPLORAR">
+          <span>EXPLORAR R1</span>
+          <i aria-hidden="true">↘</i>
+        </button>
+      </div>
+      <div class="indicador-scroll" aria-hidden="true"><span></span>ROLE PARA INICIAR</div>
+    </section>
+
+    <section class="secao secao-forma" id="forma" data-capitulo="01">
+      <div class="rotulo-secao">01 / FORMA</div>
+      <div class="composicao-titulo">
+        <p>Superfícies tensas. Volume mínimo. Fluxo contínuo.</p>
+        <h2>DESENHADO<br>PELO MOVIMENTO.</h2>
+      </div>
+      <div class="dados-lineares" aria-label="Dados aerodinâmicos">
+        <div><strong>0.21</strong><span>Cd</span></div>
+        <div><strong>ATIVA</strong><span>Aerodinâmica</span></div>
+        <div><strong>VARIÁVEL</strong><span>Downforce</span></div>
+      </div>
+    </section>
+
+    <section class="secao secao-aerodinamica" id="aerodinamica" data-capitulo="02">
+      <div class="rotulo-secao">02 / AERODINÂMICA</div>
+      <div class="texto-lateral esquerda">
+        <span class="linha-tecnica"></span>
+        <p>O ar não é um obstáculo.<br><strong>É parte da engenharia.</strong></p>
+      </div>
+      <div class="telemetria-aero">
+        <span>FLUXO</span>
+        <strong id="leitura-fluxo">126</strong>
+        <small>m/s</small>
+      </div>
+    </section>
+
+    <section class="secao secao-explodido" id="explodido" data-capitulo="03">
+      <div class="rotulo-secao">03 / ENGENHARIA</div>
+      <div class="composicao-titulo alinhado-direita">
+        <p>Arquitetura modular e centro de gravidade concentrado.</p>
+        <h2>CADA PEÇA<br>TEM UM MOTIVO.</h2>
+      </div>
+      <div class="legenda-componentes" aria-label="Componentes do veículo">
+        <span>CARROCERIA</span><span>CHASSIS</span><span>SUSPENSÃO</span><span>FREIOS</span><span>MOTORES</span><span>BATERIA</span><span>RODAS</span><span>AERO ATIVA</span><span>COCKPIT</span>
+      </div>
+    </section>
+
+    <section class="secao secao-performance" id="performance" data-capitulo="04">
+      <div class="rotulo-secao">04 / PERFORMANCE</div>
+      <h2 class="titulo-performance">ENERGIA.<br>SEM DESPERDÍCIO.</h2>
+      <div class="numeros-performance">
+        <div class="numero-gigante" data-valor="720"><strong>720</strong><span>cv</span></div>
+        <div class="linha-performance"><span>0–100 KM/H</span><strong>2,8 S</strong></div>
+        <div class="linha-performance"><span>VELOCIDADE MÁXIMA</span><strong>310 KM/H</strong></div>
+        <div class="linha-performance"><span>AUTONOMIA</span><strong>510 KM</strong></div>
+        <div class="linha-performance"><span>TRAÇÃO</span><strong>AWD</strong></div>
+        <div class="linha-performance"><span>BATERIA</span><strong>94 KWH</strong></div>
+      </div>
+    </section>
+
+    <section class="secao secao-powertrain" id="powertrain" data-capitulo="05">
+      <div class="rotulo-secao">05 / POWERTRAIN</div>
+      <div class="powertrain-texto">
+        <p>94 kWh / 800 V</p>
+        <h2>FORÇA<br>EM FLUXO.</h2>
+      </div>
+      <div class="fluxo-energia" aria-label="Fluxo de energia do powertrain">
+        <span>BATERIA</span><i></i><span>INVERSOR</span><i></i><span>MOTOR DIANTEIRO</span><i></i><span>MOTOR TRASEIRO</span><i></i><span>RODAS</span>
+      </div>
+    </section>
+
+    <section class="secao secao-materiais" id="materiais" data-capitulo="06">
+      <div class="rotulo-secao">06 / MATERIAIS</div>
+      <h2>MATÉRIA<br>COM FUNÇÃO.</h2>
+      <div class="lista-materiais">
+        <button class="material-opcao ativo" data-material="carbono" data-cursor="EXPLORAR"><span>01</span><strong>CARBONO</strong><small>Monocoque estrutural</small></button>
+        <button class="material-opcao" data-material="titanio" data-cursor="EXPLORAR"><span>02</span><strong>TITÂNIO</strong><small>Fixação e escape térmico</small></button>
+        <button class="material-opcao" data-material="aluminio" data-cursor="EXPLORAR"><span>03</span><strong>ALUMÍNIO</strong><small>Subestruturas leves</small></button>
+      </div>
+    </section>
+
+    <section class="secao secao-cockpit" id="cockpit" data-capitulo="07">
+      <div class="rotulo-secao">07 / COCKPIT</div>
+      <h2>NADA ENTRE<br>VOCÊ E A MÁQUINA.</h2>
+      <div class="cockpit-itens" aria-label="Elementos do cockpit">
+        <span>VOLANTE</span><span>HUD</span><span>PAINEL DIGITAL</span><span>CONSOLE</span><span>BANCOS ESPORTIVOS</span>
+      </div>
+    </section>
+
+    <section class="secao secao-interface" id="interface" data-capitulo="08">
+      <div class="rotulo-secao">08 / INTERFACE</div>
+      <div class="hud-painel" id="hud-painel">
+        <div class="hud-superior"><span>R1</span><span>TRACK</span><span>AWD</span></div>
+        <div class="hud-centro">
+          <div class="hud-velocidade"><strong id="hud-velocidade">186</strong><span>KM/H</span></div>
+          <canvas id="hud-canvas" width="900" height="420" aria-label="Visualização de telemetria animada"></canvas>
+        </div>
+        <div class="hud-inferior">
+          <div><small>POTÊNCIA</small><strong id="hud-potencia">68%</strong></div>
+          <div><small>TEMP.</small><strong id="hud-temperatura">74°C</strong></div>
+          <div><small>AUTONOMIA</small><strong id="hud-autonomia">312 km</strong></div>
+          <div><small>G-FORCE</small><strong id="hud-gforce">1.42 g</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-configurador" id="configurador" data-capitulo="09" data-cursor="ARRASTAR">
+      <div class="rotulo-secao">09 / CONFIGURADOR</div>
+      <div class="configurador-cabecalho">
+        <p>VÉRTICE R1</p>
+        <h2>FAÇA<br>SEU R1.</h2>
+      </div>
+      <div class="configurador-controles">
+        <div class="grupo-configuracao">
+          <span>COR</span>
+          <div class="opcoes-cor" role="group" aria-label="Cor do veículo">
+            <button class="amostra-cor ativo" style="--amostra:#b9bbb9" data-cor="#aeb1b0" data-cursor="CONFIGURAR" aria-label="Titânio líquido"></button>
+            <button class="amostra-cor" style="--amostra:#171717" data-cor="#111111" data-cursor="CONFIGURAR" aria-label="Obsidiana"></button>
+            <button class="amostra-cor" style="--amostra:#6e0d0c" data-cor="#70120f" data-cursor="CONFIGURAR" aria-label="Vermelho vértice"></button>
+          </div>
+        </div>
+        <div class="grupo-configuracao">
+          <span>RODAS</span>
+          <div class="opcoes-texto" role="group" aria-label="Rodas">
+            <button class="ativo" data-rodas="aero">AERO 21</button>
+            <button data-rodas="forjada">FORJADA 22</button>
+            <button data-rodas="pista">PISTA 21</button>
+          </div>
+        </div>
+        <div class="grupo-configuracao">
+          <span>INTERIOR</span>
+          <div class="opcoes-texto" role="group" aria-label="Interior">
+            <button class="ativo" data-interior="grafite">GRAFITE</button>
+            <button data-interior="areia">AREIA</button>
+            <button data-interior="vermelho">VERMELHO</button>
+          </div>
+        </div>
+        <div class="grupo-configuracao">
+          <span>ACABAMENTO</span>
+          <div class="opcoes-texto" role="group" aria-label="Acabamento">
+            <button class="ativo" data-acabamento="carbono">CARBONO</button>
+            <button data-acabamento="titanio">TITÂNIO</button>
+            <button data-acabamento="aluminio">ALUMÍNIO</button>
+          </div>
+        </div>
+      </div>
+      <div class="arraste-veiculo" data-cursor="ARRASTAR"><span>↔</span> ARRASTE PARA ROTACIONAR</div>
+    </section>
+
+    <section class="secao secao-final" id="final" data-capitulo="10">
+      <div class="final-conteudo">
+        <p>VÉRTICE R1</p>
+        <h2>O LIMITE NÃO ESTÁ<br>NA MÁQUINA.</h2>
+        <div class="final-acoes">
+          <a href="#configurador" class="botao-primario botao-magnetico" data-cursor="CONFIGURAR"><span>CONFIGURAR R1</span><i>↗</i></a>
+          <button class="botao-secundario botao-magnetico" type="button" data-cursor="ABRIR"><span>CONHECER A VÉRTICE</span><i>↗</i></button>
+        </div>
+      </div>
+      <button class="voltar-inicio" id="voltar-inicio" type="button" data-cursor="EXPLORAR">CONTINUAR / VOLTAR AO INÍCIO <span>↓</span></button>
+    </section>
+  </main>
+
+  <div class="indicador-capitulo" id="indicador-capitulo" aria-hidden="true"><span>00</span><i></i><small>10</small></div>
+  <div class="aviso-desempenho" id="aviso-desempenho" hidden>Modo gráfico adaptativo ativo</div>
+
+  <script type="module" src="/src/principal.js"></script>
+</body>
+</html>

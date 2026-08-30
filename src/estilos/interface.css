@@ -1,0 +1,9 @@
+html.modo-reduzido .grao { opacity: .015; }
+html.modo-reduzido .camada-canvas { opacity: .24; }
+html.modo-reduzido .vinheta { background: radial-gradient(circle at center, transparent 52%, rgba(0,0,0,.48) 100%); }
+html.modo-toque .cursor { display: none; }
+html.modo-toque body, html.modo-toque button, html.modo-toque a { cursor: auto; }
+
+@supports not (backdrop-filter: blur(12px)) {
+  .botao-primario, .hud-painel { background: rgba(8,8,8,.88); }
+}
