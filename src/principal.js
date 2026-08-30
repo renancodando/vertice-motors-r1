@@ -1,5 +1,3 @@
-import './estilos/base.css'
-import './estilos/interface.css'
 import { detectarCapacidade } from './utilitarios/dispositivo.js'
 import { criarRolagem } from './experiencia/rolagem.js'
 import { criarCanvasAmbiente } from './experiencia/canvas-ambiente.js'
